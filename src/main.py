@@ -100,12 +100,12 @@ def is_ai_related(text):
     return any(kw in text_lower for kw in AI_KEYWORDS)
 
 def is_yesterday(created_at_str):
-    """前日(JST)のツイートかどうか"""
+    """前日(JST)または過去7日以内のツイートかどうか（初回は7日分取得）"""
     try:
         dt = datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
         dt_jst = dt.astimezone(JST)
-        yesterday = datetime.now(JST).date() - timedelta(days=1)
-        return dt_jst.date() == yesterday
+        week_ago = datetime.now(JST).date() - timedelta(days=7)
+        return dt_jst.date() >= week_ago
     except Exception:
         return True  # パース失敗時は含める
 
