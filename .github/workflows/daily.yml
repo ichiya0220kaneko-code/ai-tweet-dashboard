@@ -36,6 +36,7 @@ jobs:
         run: |
           git config --global user.name "AI Dashboard Bot"
           git config --global user.email "bot@github.com"
-          git add docs/index.html obsidian/
+          git add docs/index.html
+          git add obsidian/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📊 AI Dashboard Update $(date +'%Y-%m-%d')"
           git push
