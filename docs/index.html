@@ -3,15 +3,465 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI情報ダッシュボード</title>
+<title>AI情報ダッシュボード - 2026年06月03日</title>
 <style>
-  body { font-family: -apple-system, sans-serif; background: #0f0f1a; color: #e0e0e0; padding: 40px 16px; text-align: center; }
-  h1 { color: #a78bfa; }
-  p { color: #888; margin-top: 16px; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; padding: 16px; }
+  h1 { text-align: center; padding: 20px 0 8px; font-size: 1.4em; color: #a78bfa; }
+  .date { text-align: center; color: #888; font-size: 0.85em; margin-bottom: 8px; }
+  .sources { text-align: center; color: #666; font-size: 0.75em; margin-bottom: 20px; }
+  .summary { background: #1a1a2e; border-radius: 12px; padding: 16px; margin-bottom: 20px; border-left: 4px solid #a78bfa; }
+  .summary h2 { color: #a78bfa; margin-bottom: 8px; font-size: 1em; }
+  .summary li { margin: 6px 0; font-size: 0.88em; line-height: 1.5; list-style: none; }
+  .category { margin-bottom: 24px; }
+  .category h2 { font-size: 1em; color: #c4b5fd; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #333; }
+  .count { background: #6d28d9; color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.75em; margin-left: 6px; }
+  .card { background: #1a1a2e; border-radius: 10px; padding: 14px; margin-bottom: 12px; border-left: 3px solid #444; }
+  .card.importance-5 { border-left-color: #f59e0b; background: #1f1a10; }
+  .card.importance-4 { border-left-color: #a78bfa; }
+  .card.importance-3 { border-left-color: #34d399; }
+  .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+  .stars { font-size: 0.75em; }
+  .badge { font-size: 0.72em; padding: 2px 8px; border-radius: 8px; background: #2d2d4e; color: #c4b5fd; }
+  .score { font-size: 0.75em; color: #888; margin-left: auto; }
+  .title { font-size: 0.95em; font-weight: 600; line-height: 1.5; margin-bottom: 8px; }
+  .reason { font-size: 0.8em; color: #a3e635; margin-bottom: 10px; }
+  .article-link { font-size: 0.82em; color: #60a5fa; text-decoration: none; }
+  .article-link:hover { text-decoration: underline; }
+  @media (min-width: 768px) {
+    body { max-width: 800px; margin: 0 auto; padding: 24px; }
+    h1 { font-size: 1.8em; }
+  }
 </style>
 </head>
 <body>
 <h1>🤖 AI情報ダッシュボード</h1>
-<p>毎朝6:00に自動更新されます。<br>初回データは翌朝に表示されます。</p>
+<div class="date">📅 2026年06月03日 | 42件</div>
+<div class="sources">🟠 Hacker News &nbsp;|&nbsp; 💻 TechCrunch &nbsp;|&nbsp; 🚀 VentureBeat &nbsp;|&nbsp; 🔬 arXiv &nbsp;|&nbsp; 🟥 Reddit</div>
+<div class="summary">
+  <h2>⭐ 本日のTOP5</h2>
+  <ol><li>📌 Agentic Mfw</li><li>📌 MAI-Code-1-Flash</li><li>📌 Gmail thinks I'm stupid, so I left</li><li>📌 Open Repair Data Standard – Open Repair Alliance</li><li>📌 AI outperforms law professors in Stanford Law study</li></ol>
+</div>
+<div class="category"><h2>📌 業界ニュース <span class="count">42</span></h2>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 53</span>
+  </div>
+  <div class="title">Agentic Mfw</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://agenticmotherfucking.website" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 421</span>
+  </div>
+  <div class="title">MAI-Code-1-Flash</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://microsoft.ai/news/introducingmai-code-1-flash/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 707</span>
+  </div>
+  <div class="title">Gmail thinks I'm stupid, so I left</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://moddedbear.com/gmail-thinks-im-stupid-so-i-left" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 107</span>
+  </div>
+  <div class="title">Open Repair Data Standard – Open Repair Alliance</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://openrepair.org/open-data/open-standard/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 133</span>
+  </div>
+  <div class="title">AI outperforms law professors in Stanford Law study</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 102</span>
+  </div>
+  <div class="title">How we index images for RAG</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://www.kapa.ai/blog/how-we-index-images-for-rag" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 189</span>
+  </div>
+  <div class="title">Trump signs downsized AI order after weeks of reversals</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 686</span>
+  </div>
+  <div class="title">Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 637</span>
+  </div>
+  <div class="title">Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://blog.adafruit.com/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 617</span>
+  </div>
+  <div class="title">The Pirate Bay Remains Resilient, 20 Years After the Raid</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 525</span>
+  </div>
+  <div class="title">Anthropic confidentially submits draft S-1 to the SEC</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://www.anthropic.com/news/confidential-draft-s1-sec" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 491</span>
+  </div>
+  <div class="title">AI Agent Guidelines for CS336 at Stanford</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 375</span>
+  </div>
+  <div class="title">Chipotlai Max</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://github.com/cyberpapiii/chipotlai-max" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 360</span>
+  </div>
+  <div class="title">OpenAI frontier models and Codex are now available on AWS</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 307</span>
+  </div>
+  <div class="title">DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🟠 Hacker News</span>
+    <span class="score">👍 264</span>
+  </div>
+  <div class="title">Florida sues OpenAI and Sam Altman over AI risks</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Uber caps employee AI spending after blowing through budget in 4 months</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">New Microsoft tool lets devs spin up AI behavior tests using text descriptions</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Microsoft launches Scout, an OpenClaw-inspired personal assistant</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Google rolls out fake call detection to protect against AI deepfake impersonation scams</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Microsoft offers devs a better way to control AI agent behavior</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Amazon faces class action lawsuit over Ring facial-recognition feature</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Trump signs narrower executive order on AI oversight after industry objections </div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">OpenAI launches new Codex tools for white-collar work</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">ZeroDrift raises $10M to protect AI models from themselves</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Rocket engine startup Impulse raises $500 million to hire people, not AI</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Alphabet plans to raise $80B to pay for AI buildout</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">Anthropic files to go public</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">This AI weather startup is out-forecasting government agencies</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">💻 TechCrunch AI</span>
+    
+  </div>
+  <div class="title">DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03988v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03985v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03979v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Formalizing the Binding Problem</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03976v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Quantifying Faithful Confidence Expression in Large Reasoning Models</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03969v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Neuron Populations Exhibit Divergent Selectivity with Scale</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03990v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03980v1" target="_blank" class="article-link">記事を読む →</a>
+</div>
+<div class="card importance-3">
+  <div class="card-header">
+    <span class="stars">⭐⭐⭐</span>
+    <span class="badge">🔬 arXiv</span>
+    
+  </div>
+  <div class="title">Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning</div>
+  <div class="reason">💡 AI関連情報</div>
+  <a href="http://arxiv.org/abs/2606.03962v1" target="_blank" class="article-link">記事を読む →</a>
+</div></div>
 </body>
 </html>
